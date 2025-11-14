@@ -43,7 +43,7 @@ export default function Dashboard() {
                   <span className="text-white font-bold text-xl">E</span>
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  EduNexus
+                  Learnify
                 </span>
               </Link>
               <Link to="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition-colors px-3 py-2 rounded-lg hover:bg-blue-50">
@@ -251,10 +251,10 @@ export default function Dashboard() {
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">E</span>
                 </div>
-                <span className="text-xl font-bold">EduNexus</span>
+                <span className="text-xl font-bold">Learnify</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Empowering learners worldwide with cutting-edge online education. Join thousands of students and instructors in our learning community.
+                Empowering learners worldwide with cutting-edge online skills education. 
               </p>
             </div>
 
@@ -289,12 +289,10 @@ export default function Dashboard() {
               <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center gap-2">
-                  <span>📧</span>
-                  <span>support@edunexus.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span>📱</span>
-                  <span>+1 (555) 123-4567</span>
+                  <span>+936 684 4746</span>
                 </li>
               </ul>
               <div className="flex gap-4 mt-4">
@@ -341,7 +339,7 @@ export default function Dashboard() {
           {/* Bottom Bar */}
           <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} EduNexus. All rights reserved.
+              © {new Date().getFullYear()} All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
               <a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a>

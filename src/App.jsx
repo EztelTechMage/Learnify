@@ -144,7 +144,7 @@ const MainLayout = ({ children }) => (
           <div className="col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl">E</span>
+                <span className="text-white font-bold text-xl">L</span>
               </div>
               <span className="text-2xl font-bold">Learnify</span>
             </div>
@@ -185,7 +185,7 @@ const MainLayout = ({ children }) => (
             <ul className="space-y-3 text-gray-400">
               <li><Link to="/courses" className="hover:text-blue-400 transition-colors">Browse Courses</Link></li>
               <li><Link to="/signup" className="hover:text-blue-400 transition-colors">Become a Student</Link></li>
-              <li><Link to="/signup" className="hover:text-blue-400 transition-colors">Teach on EduNexus</Link></li>
+              <li><Link to="/signup" className="hover:text-blue-400 transition-colors">Teach on Learnify</Link></li>
             </ul>
           </div>
 
@@ -210,7 +210,7 @@ const MainLayout = ({ children }) => (
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} EduNexus. All rights reserved.
+            © {new Date().getFullYear()} All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-400">
           </div>
