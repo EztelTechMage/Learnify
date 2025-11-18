@@ -24,7 +24,7 @@ const corsOptions = {
   origin: [
     'http://localhost:5173', // Local development
     'http://localhost:5000', // Alternative local port
-    'https://', // Your Vercel deployment
+    'https://learnify-lms-finalproject.vercel.app', // Your Vercel deployment
     'https://*.vercel.app', // All Vercel subdomains
     process.env.CLIENT_URL // Environment variable for production
   ].filter(Boolean), // Remove undefined values
